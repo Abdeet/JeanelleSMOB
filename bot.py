@@ -14,7 +14,7 @@ def get_secret():
 
 class MyClient(discord.Client): 
     async def on_ready(self):
-        print('Schedulebot Up')
+        print('JeanelleSMOB Up')
         print(self.user.name)
         print(self.user.id)
         print('------')
